@@ -362,13 +362,40 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 
         // Send audio
         await conn.sendMessage(from, {
-            audio: { url: 'https://github.com/waqa827/E3_HACKER-MD/blob/main/assets/menu.mp3' },
-            mimetype: 'audio/mp4',
+            audio: { url: 'https://github.com/waqa827/E3_HACKER-MD/blob/main/assets/menu.m4a' },
+            mimetype: 'menu/m4a',
             ptt: true
         }, { quoted: mek });
         
     } catch (e) {
         console.log(e);
         reply(`❌ Error: ${e}`);
+    }
+});
+}
+            }
+        }, { quoted: mek });
+
+        // Send local audio file
+        const audioPath = path.join(__dirname, '../assets/menu.m4a');
+        await conn.sendMessage(from, {
+            audio: fs.readFileSync(audioPath),
+            mimetype: 'audio/mp4',
+            ptt: true,
+            contextInfo: { 
+                mentionedJid: [m.sender],
+                forwardingScore: 999,
+                isForwarded: true,
+                forwardedNewsletterMessageInfo: {
+                    newsletterJid: '120363318478753709@newsletter',
+                    newsletterName: 'E3 HACKER MD',
+                    serverMessageId: 143
+                }
+            }
+        }, { quoted: mek });
+
+    } catch (error) {
+        console.error("Error in repo command:", error);
+        reply("Sorry, something went wrong while fetching the repository information. Please try again later.");
     }
 });
