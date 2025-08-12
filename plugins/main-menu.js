@@ -339,6 +339,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 ┃◈┃• 📹 ytv
 ┃◈╰─────────────────┈⊷
 ╰━━━━━━━━━━━━━━━━━━━┈⊷
+*CHANNEL JOIN KAR LO YAR*
 > ${config.DESCRIPTION}`;
 
         await conn.sendMessage(
@@ -355,20 +356,25 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                         newsletterName: config.BOT_NAME,
                         serverMessageId: 143
                     }
-                }
-            },
-            { quoted: mek }
-        );
+            }
+        }, { quoted: mek });
 
         // Send audio
         await conn.sendMessage(from, {
-            audio: { url: 'https://github.com/waqa827/E3_HACKER-MD/blob/main/assets/menu.mp3' },
+            audio: { url: 'https://files.catbox.moe/479tu4.mp3' },
             mimetype: 'audio/mp4',
-            ptt: true
+            ptt: true,
+            contextInfo: { 
+                mentionedJid: [m.sender],
+                forwardingScore: 999,
+                isForwarded: true
+    }
+});
+            }
         }, { quoted: mek });
-        
-    } catch (e) {
-        console.log(e);
-        reply(`❌ Error: ${e}`);
+
+    } catch (error) {
+        console.error("Repo command error:", error);
+        reply(`❌ Error: ${error.message}`);
     }
 });

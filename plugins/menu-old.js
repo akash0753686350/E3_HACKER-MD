@@ -53,8 +53,8 @@ async (conn, mek, m, { from, sender, pushname, reply }) => {
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363348739987203@newsletter',
-                        newsletterName: '𝐀𝐫𝐬𝐥𝐚𝐧_𝐌𝐃',
+                        newsletterJid: '120363318478753709@newsletter',
+                        newsletterName: 'E3_HACKER_𝐌𝐃',
                         serverMessageId: 143
                     }
                 }
@@ -72,8 +72,8 @@ async (conn, mek, m, { from, sender, pushname, reply }) => {
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363348739987203@newsletter',
-                    newsletterName: '𝐀𝐫𝐬𝐥𝐚𝐧_𝐌𝐃',
+                    newsletterJid: '120363318478753709@newsletter',
+                    newsletterName: 'E3_HACKER_𝐌𝐃',
                     serverMessageId: 143
                 }
             }
@@ -141,8 +141,8 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363348739987203@newsletter',
-                        newsletterName: "𝐀𝐫𝐬𝐥𝐚𝐧_𝐌𝐃",
+                        newsletterJid: '120363318478753709@newsletter',
+                        newsletterName: "E3_HACKER_𝐌𝐃",
                         serverMessageId: 143
                     }
                 }
@@ -207,8 +207,8 @@ async (conn, mek, m, { from, quoted, reply }) => {
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363348739987203@newsletter',
-                        newsletterName: '𝐀𝐫𝐬𝐥𝐚𝐧_𝐌𝐃',
+                        newsletterJid: '120363318478753709@newsletter',
+                        newsletterName: 'E3_HACKER_𝐌𝐃',
                         serverMessageId: 144
                     }
                 }
@@ -290,8 +290,8 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363348739987203@newsletter',
-                        newsletterName: '𝐀𝐫𝐬𝐥𝐚𝐧_𝐌𝐃',
+                        newsletterJid: '120363318478753709@newsletter',
+                        newsletterName: 'E3_HACKER_𝐌𝐃',
                         serverMessageId: 143
                     }
                 }
@@ -368,8 +368,8 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363348739987203@newsletter',
-                        newsletterName: '𝐀𝐫𝐬𝐥𝐚𝐧_𝐌𝐃',
+                        newsletterJid: '120363318478753709@newsletter',
+                        newsletterName: 'E3_HACKER_𝐌𝐃',
                         serverMessageId: 143
                     }
                 }
@@ -435,8 +435,8 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363348739987203@newsletter',
-                        newsletterName: '𝐀𝐫𝐬𝐥𝐚𝐧_𝐌𝐃',
+                        newsletterJid: '120363318478753709@newsletter',
+                        newsletterName: 'E3_HACKER_𝐌𝐃',
                         serverMessageId: 143
                     }
                 }
@@ -506,8 +506,8 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363348739987203@newsletter',
-                        newsletterName: '𝐀𝐫𝐬𝐥𝐚𝐧_𝐌𝐃',
+                        newsletterJid: '120363318478753709@newsletter',
+                        newsletterName: 'E3_HACKER_𝐌𝐃',
                         serverMessageId: 143
                     }
                 }
@@ -558,8 +558,8 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363348739987203@newsletter',
-                        newsletterName: '𝐀𝐫𝐬𝐥𝐚𝐧_𝐌𝐃',
+                        newsletterJid: '120363318478753709@newsletter',
+                        newsletterName: 'E3_HACKER_𝐌𝐃',
                         serverMessageId: 143
                     }
                 }
@@ -617,8 +617,8 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363348739987203@newsletter',
-                        newsletterName: '𝐀𝐫𝐬𝐥𝐚𝐧_𝐌𝐃',
+                        newsletterJid: '120363318478753709@newsletter',
+                        newsletterName: 'E3_HACKER_𝐌𝐃',
                         serverMessageId: 143
                     }
                 }
@@ -678,8 +678,8 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363348739987203@newsletter',
-                        newsletterName: '𝐀𝐫𝐬𝐥𝐚𝐧_𝐌𝐃',
+                        newsletterJid: '120363318478753709@newsletter',
+                        newsletterName: 'E3_HACKER_𝐌𝐃',
                         serverMessageId: 143
                     }
                 }
@@ -747,8 +747,8 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363348739987203@newsletter',
-                        newsletterName: '𝐀𝐫𝐬𝐥𝐚𝐧_𝐌𝐃',
+                        newsletterJid: '120363318478753709@newsletter',
+                        newsletterName: 'E3_HACKER_𝐌𝐃',
                         serverMessageId: 143
                     }
                 }
@@ -806,8 +806,8 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363348739987203@newsletter',
-                        newsletterName: '𝐀𝐫𝐬𝐥𝐚𝐧_𝐌𝐃',
+                        newsletterJid: '120363318478753709@newsletter',
+                        newsletterName: 'E3_HACKER_𝐌𝐃',
                         serverMessageId: 143
                     }
                 }
